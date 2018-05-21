@@ -54,6 +54,7 @@ forecast_set = clf.predict(X_lately)
 
 print(forecast_set, accuracy, forcast_out)
 
+#Creating graph
 df['Forecast'] = np.nan
 
 last_date = df.iloc[-1].name
